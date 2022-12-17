@@ -1,0 +1,100 @@
+/*Especificidad: 001*/
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: #000000;
+    background-color: #fff7cf;
+
+    margin: 1em;
+    padding: 0;
+}
+
+/*Especificidad: 001*/
+h1,
+h2,
+h3 
+{
+    text-align: center;
+}
+
+/*Especificidad: 001*/
+button {
+    color: #000000;
+    background-color: #f5c4ff;
+
+    padding: 0.5em 1em;
+    border: 0.2em solid #7e376e;
+}
+
+/*Especificidad: 001*/
+form {
+    /* Colors */
+    background-color: #e5ceeb;
+    color: #000000;
+
+    display: grid;
+    gap: 0.5em;
+
+    /* Sizing */
+    width: 80%;
+    padding: 5%;
+    margin: auto auto 5% auto;
+}
+
+/*Especificidad: 001*/
+input, textarea {
+    /* Colors */
+    background-color: #fbfbfb; 
+    color:#000000;
+
+    /* Sizing */
+    width: 100%; 
+    height: 2.5em;
+    border: none;
+}
+
+/*Especificidad: 021*/
+/*Especificidad: 021*/
+/*Especificidad: 021*/
+/*Especificidad: 011*/
+input[type=text]:focus, 
+input[type=number]:focus, 
+input[type=date]:focus, 
+textarea:focus {
+    outline: 0.2em solid #bd93f9;
+}
+
+/*Especificidad: 011*/
+input[type=radio] {
+    height: 1.1em;
+    width: 1.1em;
+    margin-bottom: 0;
+}
+
+/*Especificidad: 001*/
+legend {
+    /* Colors */
+    background-color: #e5ceeb;
+    color: #000000;
+
+    /* Sizing */
+    padding: 0.3em 0.6em;
+}
+
+/*Especificidad: 011*/
+input[type=submit] {
+    /* Colors */
+    background-color: #f5c4ff;
+    color: #000000;
+
+    /* Positioning */
+    padding: 3% 5%;
+    height: auto;
+    margin-bottom: 0em;
+
+    /* Text */
+    font-family: Verdana, sans-serif;
+    border: 0.2em solid #7e376e;
+    text-decoration-line: none;
+    font-size: 1.5em;
+}
